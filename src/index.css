@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-stone-900 bg-stone-50 selection:bg-blue-900 selection:text-white font-sans;
+  }
+
+  /* Cinematic Utility Classes */
+  .display-text {
+    @apply tracking-tight font-bold;
+  }
+
+  .btn-primary {
+    @apply bg-stone-900 text-white font-bold px-6 py-3 rounded-lg hover:bg-black transition-all shadow-lg hover:shadow-xl active:scale-95;
+  }
+}
+
+@layer utilities {
+
+  /* Hide Scrollbar for cleaner UI in specific components */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Global Smooth Scroll & Custom Scrollbar */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fafaf9;
+  /* stone-50 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  /* stone-300 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #78716c;
+  /* stone-500 */
+}
