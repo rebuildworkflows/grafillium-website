@@ -61,7 +61,7 @@ export const pipelineData = [
                 solution: [
                     "Extends pavement life 1.5× to 2× (8-12 years)",
                     "Reduces repair frequency by up to 60%",
-                    "Critical for NHAI's ~50,000 km/year highway expansion"
+                    "Critical for national highway expansion programs"
                 ],
                 impact: [
                     "Less traffic disruption",
@@ -211,7 +211,7 @@ export const pipelineData = [
 
         // Strategic Value
         strategicValue: [
-            "Critical for NHAI's ~50,000 km/year highway expansion",
+            "Critical for national highway expansion programs",
             "Alignment with India's Road Safety Mission",
             "Supports clean air & net-zero goals",
             "Strong fit for NAPCC, ESG financing, green bonds"
@@ -224,7 +224,7 @@ export const pipelineData = [
         },
 
         // Target Applications
-        targetApplications: "Highway construction, Road maintenance & rehabilitation, NHAI projects, State highway departments, Urban infrastructure development",
+        targetApplications: "Highway construction, Road maintenance & rehabilitation, National highway projects, State highway departments, Urban infrastructure development",
 
         // Usage Guide
         usageGuide: {
@@ -237,47 +237,317 @@ export const pipelineData = [
     {
         id: "aquamax",
         name: "Aquamax™",
-        tagline: "Advanced water conservation technology for industrial applications",
+        tagline: "High-Efficiency Atmospheric Moisture Recovery (HAMR) + Hydrophilic Graphene Muffle Covers (HGMC)",
         sector: "Water Management",
-        brand: "Nexerg",
-        status: "Concept Validation",
-        text: "Aquamax™ is an innovative water treatment additive designed to reduce water consumption in industrial cooling systems and process water applications by up to 30%, while improving system efficiency and reducing scale formation.",
+        brand: "Plume Dynamics",
+        status: "Production Ready",
+        text: "Aquamax™ is the world's first hybrid water recovery system combining HAMR (Active: 70-80% recovery) and HGMC (Passive: 20-30% recovery) for 95%+ total recovery of cooling tower plume water. Delivers 12-24 month ROI while transforming water-stressed facilities into sustainable, self-sufficient operations.",
 
+        // Key Benefits - Always Visible on Card
         keyBenefits: [
-            "Up to 30% reduction in water consumption",
-            "Improved heat transfer efficiency",
-            "Reduced scale and corrosion",
-            "Lower chemical treatment costs"
+            "95%+ total water recovery from cooling tower plumes",
+            "100,000+ liters/day per large facility",
+            "ROI: 12-18 months (India) | 18-24 months (Global)",
+            "Energy efficiency: 0.3-0.5 kWh/m³ (&lt;50% of desalination)",
+            "5× longer operational life than conventional systems",
+            "2-6 weeks retrofit installation (plug-and-play)"
         ],
 
+        // Economic Impact - India
         economicImpact: {
             india: {
-                annual: "₹15,000-25,000 Cr/year potential savings"
+                annual: "₹1.2-2 Lakh Crore/year",
+                total: "₹1.2-2 Lakh Crore annual impact (0.5-0.8% GDP)",
+                breakdown: {
+                    powerPlants: "₹50,000-80,000 Cr (200-300B liters saved)",
+                    dataCenters: "₹10,000-15,000 Cr (50-80B liters saved)",
+                    textileChemical: "₹30,000-50,000 Cr (80-120B liters saved)",
+                    compliancePenalties: "₹20,000 Cr (regulatory compliance)"
+                }
             },
             global: {
-                annual: "$50-80 billion/year"
+                annual: "$80-150 Billion/year",
+                total: "$80-150B annual impact (0.1-0.2% GDP)",
+                breakdown: {
+                    powerPlantsGlobal: "$40-70B (600-900B liters)",
+                    dataCentersGlobal: "$15-25B (200-350B liters)",
+                    gccCompliance: "$20-30B (Middle East water scarcity)",
+                    chinaEUIndustrial: "$15-25B (Heavy industry zones)"
+                }
             }
         },
 
+        // Carbon Footprint
         carbonFootprint: {
-            india: "5-8 MMT CO₂ avoided through reduced pumping energy",
-            global: "Significant contribution to water-energy nexus optimization"
+            india: {
+                annual: "10-15 MMT CO₂ avoided annually",
+                description: "Water pumping + cooling efficiency + chemical transport savings",
+                gdpImpact: "3-5% reduction in industrial emissions"
+            },
+            global: {
+                annual: "60-95 MMT CO₂ avoided annually",
+                contribution: "~2% of total heavy-industry emissions",
+                perFacility: "0.5-1 MtCO₂/year (equivalent to 100,000 EVs)"
+            }
         },
 
+        // Detailed View More Data
         viewMore: true,
 
-        marketSize: {
-            india: "India's industrial water market: ₹50,000+ Cr/year",
-            global: "Global industrial water treatment market: $150+ billion"
+        // Executive Overview (for detailed view)
+        executiveOverview: {
+            definition: "Aquamax™ by Plume Dynamics: World's first hybrid water recovery system achieving 95%+ recovery through HAMR (electrostatic 70-80%) + HGMC (passive graphene 20-30%). Enables zero net water loss in closed-loop cooling systems.",
+            problemStatement: "Industrial cooling accounts for 15-20% of global freshwater withdrawal, with cooling towers losing 30-50% to evaporation. Traditional drift eliminators capture &lt;8% (liquid only); vapor escapes completely. Corporate ESG targets of 30-50% water reduction unachievable with current technology. Aquamax™ solves this with 95%+ recovery."
         },
 
+        // India Context - Detailed Benefits
+        indiaContext: {
+            powerPlants: {
+                problem: "India's thermal power plants lose billions of liters daily to cooling tower evaporation. 60% of industries operate in water-stressed regions (Rajasthan, Gujarat, Tamil Nadu) facing operational shutdowns during droughts costing millions per day.",
+                solution: [
+                    "100,000-500,000 L/day recovery per plant",
+                    "95%+ vapor + liquid recovery (HAMR+HGMC)",
+                    "Zero-discharge capability via closed-loop systems"
+                ],
+                impact: [
+                    "Operational continuity during droughts",
+                    "Compliance with strict withdrawal limits",
+                    "Boiler makeup reduction"
+                ],
+                savings: "₹50,000-80,000 Cr/year"
+            },
+            dataCenters: {
+                problem: "Rapidly growing cloud infrastructure requires massive water for CRAC/CRAH cooling. Mission-critical water security needed.",
+                solution: [
+                    "10,000-50,000 L/day per data center",
+                    "70-90% makeup water reduction",
+                    "Sustainability certifications enabled"
+                ],
+                impact: [
+                    "Mission-critical water security",
+                    "ESG reporting excellence",
+                    "Operational reliability"
+                ],
+                savings: "₹10,000-15,000 Cr/year"
+            },
+            textileChemical: {
+                problem: "High water intensity sectors face rising tariffs, regulatory pressure, operational constraints in water-scarce regions.",
+                solution: [
+                    "50,000-200,000 L/day (Textile)",
+                    "30,000-150,000 L/day (Chemical)",
+                    "Process cooling + steam condensate recovery"
+                ],
+                impact: [
+                    "Closed-loop process cooling",
+                    "Sanitary-grade water recovery",
+                    "Chemical treatment cost reduction"
+                ],
+                savings: "₹30,000-50,000 Cr/year"
+            },
+            perFacilityBenefits: {
+                problem: "Large facilities need immediate cost relief and ESG target achievement.",
+                solution: [
+                    "Direct savings: ₹35-57 Cr/year per large facility",
+                    "Indirect benefits: ₹87 Cr/year (health, productivity, retention)",
+                    "12-18 month ROI | 45-65% IRR | 8-12× 10-year NPV"
+                ],
+                impact: [
+                    "70% reduction in waterborne illness",
+                    "20% productivity improvement",
+                    "50% lower employee turnover",
+                    "~300 operational jobs created per facility"
+                ],
+                savings: "₹35-57 Cr direct + ₹87 Cr indirect per facility"
+            },
+            carbonHealth: {
+                problem: "Water scarcity threatens $5 trillion in industrial output. Waterborne diseases cost ₹4,350 Cr/year across 50 plants.",
+                solution: [
+                    "10-15 MMT CO₂ reduction via water pumping + cooling efficiency",
+                    "Waterborne disease elimination in facility water systems",
+                    "15,000-25,000 direct jobs at scale"
+                ],
+                impact: [
+                    "3-5% reduction in industrial emissions",
+                    "250,000+ workers directly impacted (50 plants)",
+                    "₹500-800 Cr healthcare savings",
+                    "15-20% school attendance improvement in communities"
+                ],
+                savings: "10-15 MMT CO₂ + massive health/social impact"
+            }
+        },
+
+        // India Impact Table
+        indiaImpactTable: [
+            {
+                benefitArea: "Power Plants",
+                annualSavings: "₹50,000-80,000 Cr",
+                waterSaved: "200-300B liters"
+            },
+            {
+                benefitArea: "Data Centers",
+                annualSavings: "₹10,000-15,000 Cr",
+                waterSaved: "50-80B liters"
+            },
+            {
+                benefitArea: "Textile/Chemical",
+                annualSavings: "₹30,000-50,000 Cr",
+                waterSaved: "80-120B liters"
+            },
+            {
+                benefitArea: "Compliance Penalties",
+                annualSavings: "₹20,000 Cr",
+                waterSaved: "Regulatory value"
+            },
+            {
+                benefitArea: "TOTAL IMPACT",
+                annualSavings: "₹1.2-2 Lakh Cr",
+                waterSaved: "0.5-0.8% GDP | 10-15 MMT CO₂"
+            }
+        ],
+
+        // Global Context - Detailed Benefits
+        globalContext: {
+            powerPlantsGlobal: {
+                scope: "600-900 billion liters recoverable annually from global thermal power plants in water-stressed regions.",
+                impact: [
+                    "100,000-500,000 L/day per plant",
+                    "Cooling tower + flue gas recovery",
+                    "Zero-discharge capability"
+                ],
+                savings: "$40-70 billion/year"
+            },
+            dataCentersGlobal: {
+                scope: "Cloud expansion driving massive water demand. CRAC/CRAH units lose water to evaporation.",
+                impact: [
+                    "10,000-50,000 L/day per DC",
+                    "Mission-critical water security",
+                    "Sustainability certifications"
+                ],
+                savings: "$15-25 billion/year"
+            },
+            gccMiddleEast: {
+                scope: "Extreme water stress, highest water tariffs globally, strict regulations.",
+                impact: [
+                    "Critical enablement for industrial operations",
+                    "Compliance with withdrawal limits",
+                    "Operational continuity"
+                ],
+                savings: "$20-30 billion/year"
+            },
+            chinaEUIndustrial: {
+                scope: "Heavy industry zones facing water rationing and strict regulations.",
+                impact: [
+                    "Manufacturing efficiency",
+                    "Regulatory compliance",
+                    "ESG target achievement"
+                ],
+                savings: "$15-25 billion/year"
+            },
+            environmentalImpact: {
+                scope: "~1 Trillion liters/year recovery potential at 5,000-10,000 installations globally.",
+                impact: [
+                    "60-95 MMT CO₂ avoided annually",
+                    "Biodiversity +25-40% in industrial zones",
+                    "Aquifer protection in stressed regions",
+                    "Zero discharge; 100% reuse on-site"
+                ],
+                savings: "Comparable to taking ~50 coal power plants offline"
+            }
+        },
+
+        // Global Impact Table
+        globalImpactTable: [
+            {
+                benefitArea: "Power Plants (Global)",
+                annualSavings: "$40-70B",
+                waterSaved: "600-900B liters"
+            },
+            {
+                benefitArea: "Data Centers (Global)",
+                annualSavings: "$15-25B",
+                waterSaved: "200-350B liters"
+            },
+            {
+                benefitArea: "GCC Compliance",
+                annualSavings: "$20-30B",
+                waterSaved: "Critical regions"
+            },
+            {
+                benefitArea: "China/EU Industrial",
+                annualSavings: "$15-25B",
+                waterSaved: "Heavy industry"
+            },
+            {
+                benefitArea: "TOTAL IMPACT",
+                annualSavings: "$80-150B",
+                waterSaved: "0.1-0.2% GDP | 60-95 MMT CO₂"
+            }
+        ],
+
+        // Strategic Value
+        strategicValue: [
+            "World's only hybrid HAMR+HGMC system achieving 95%+ recovery",
+            "Enables corporate 30-50% water reduction ESG targets",
+            "Production Ready with validated pilot data",
+            "12-24 month ROI vs 3-5 years for alternatives",
+            "Zero net water loss in closed-loop systems",
+            "Critical for water-stressed regions: Rajasthan, GCC, Western US, Northern China"
+        ],
+
+        // Market Size
+        marketSize: {
+            india: "₹1.2-2 Lakh Cr/year opportunity | 0.5-0.8% GDP | 500+ target installations",
+            global: "$80-150B/year opportunity | 0.1-0.2% GDP | 5,000-10,000 installations | ~1 Trillion liters/year at scale"
+        },
+
+        // Technical Specifications
+        technicalSpecs: {
+            totalRecovery: "95%+ (HAMR 70-80% + HGMC 20-30%)",
+            energyEfficiency: "0.3-0.5 kWh/m³ (&lt;50% of desalination)",
+            waterYield: "1-5 liters per m³ processed air | 100,000+ L/day per large facility",
+            hgmcPower: "Zero power consumption (passive condensation)",
+            operationalLife: "5× longer than conventional systems",
+            installationTime: "2-6 weeks retrofit (plug-and-play)",
+            waterQuality: "TDS &lt;500 ppm | pH 6.5-8.5 | Meets cooling tower makeup standards"
+        },
+
+        // Target Industries with Recovery Potential
         targetIndustries: [
-            "Thermal power plants",
-            "Steel manufacturing",
-            "Chemical processing",
-            "Textile industries",
-            "Food & beverage processing"
-        ]
+            "Thermal Power Plants: 100,000-500,000 L/day (Cooling towers, flue gas, boiler makeup)",
+            "Data Centers: 10,000-50,000 L/day (CRAC/CRAH units, evaporative cooling)",
+            "Textile Mills: 50,000-200,000 L/day (Process cooling, steam condensate)",
+            "Chemical Plants: 30,000-150,000 L/day (Closed-loop cooling)",
+            "Food & Beverage: 20,000-80,000 L/day (Sanitary-grade recovery)",
+            "Airports: 5,000-20,000 L/day (Terminal HVAC, ground support)",
+            "Desalination Plants: 20-30% additional yield (Vapor recovery)"
+        ],
+
+        // Competitive Advantages
+        competitiveAdvantages: [
+            "Industry's Only Hybrid: HAMR 70-80% + HGMC 20-30% = 95%+ total",
+            "Vapor Recovery Breakthrough: Traditional &lt;8% (liquid only)",
+            "Superior Energy: 0.3-0.5 kWh/m³ vs 1-3 kWh/m³ desalination",
+            "Rapid ROI: 12-24 months vs 3-5 years alternatives",
+            "Extended Life: 5× longer via graphene anti-fouling",
+            "Zero Net Loss: Achievable in closed-loop systems",
+            "Retrofit-Friendly: Plug-and-play in 2-6 weeks",
+            "Proven Technology: Validated pilot + third-party validation"
+        ],
+
+        // ESG & Sustainability Alignment
+        esgAlignment: {
+            environmental: "70-90% freshwater withdrawal reduction | 0.5-1 MtCO₂ per facility | Biodiversity +25-40%",
+            social: "70% absenteeism reduction | 20% productivity gain | ~300 jobs per facility",
+            governance: "Zero compliance penalties | Real-time ESG data | Business continuity assured"
+        },
+
+        // Usage Guide
+        usageGuide: {
+            website: "Use Executive Overview and India Context for product pages",
+            investorDecks: "Use India and Global Impact Tables for market opportunity",
+            esgReports: "Use Carbon Footprint and ESG Alignment for environmental reporting",
+            sales: "Use Per Facility Benefits and ROI data for CFO presentations"
+        }
     },
     {
         id: "thermoguard",

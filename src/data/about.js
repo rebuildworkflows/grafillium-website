@@ -152,7 +152,7 @@ export const aboutContent = {
             {
                 name: "Vikas Jain",
                 title: "Co-Founder",
-                subtitle: "CEO & Chief Manufacturing Officer",
+                subtitle: "Chief Executive and Manufacturing Officer",
                 experience: "25+ years",
                 bio: "With over 25 years of global experience spanning Australia, China, Italy, Germany, and India, Vikas Jain is a visionary entrepreneur and strategist with an extensive background in manufacturing, business strategy, and sustainable engineering. His expertise lies in leveraging cross-industry knowledge to develop innovative, high-impact solutions that drive environmental sustainability.",
                 background: "As the Co-founder of Plume Dynamics, Vikas is at the forefront of deeptech-driven environmental solutions, breaking barriers across industries to tackle some of the world's most pressing challenges. He believes that \"Nothing is impossible\"—a philosophy that has fueled his success in pioneering disruptive technologies and implementing transformative business strategies.",
@@ -166,14 +166,13 @@ export const aboutContent = {
                     "Clean Energy Solutions"
                 ],
                 linkedin: "",
-                companies: "Plume Dynamics | Grafillium",
                 image: VikasImage,
                 placeholder: false
             },
             {
                 name: "Ishat Jain",
                 title: "Co-Founder",
-                subtitle: "Business Operations & Digital Growth",
+                subtitle: "Chief Business Development Officer",
                 experience: "5+ years",
                 bio: "At 22, Ishat Jain is a serial entrepreneur who has built and scaled multiple ventures from the ground up. With a unique educational journey—choosing entrepreneurship over traditional schooling at age 13—Ishat has developed a hands-on expertise in business fundamentals, leadership, and growth strategy through real-world experience rather than conventional academics.",
                 background: "Ishat's entrepreneurial journey spans diverse industries: from founding Bekynd (a vegan smoothie bar) and franchising Brave Gentlemen (vegan leather footwear) to ventures in filmmaking, premium lighting (Ombre), and glass house construction (Uncovered). Most notably, as Co-Founder of SUNROOOF, Ishat scaled the wellness lighting company from zero to ₹50 crores in revenue, expanding the team from 0 to 60+ professionals across design, sales, marketing, operations, and manufacturing.",
@@ -188,7 +187,6 @@ export const aboutContent = {
                     "Performance Management"
                 ],
                 linkedin: "https://in.linkedin.com/in/ishat-jain-59786923b",
-                companies: "SUNROOOF | Grafillium",
                 image: "/images/profiles/Ishat.webp",
                 placeholder: false
             }

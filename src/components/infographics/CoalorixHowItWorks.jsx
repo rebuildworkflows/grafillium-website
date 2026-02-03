@@ -142,8 +142,8 @@ const CoalorixHowItWorks = () => {
                 <span className="font-bold text-red-400">100% (baseline)</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-stone-300">Application:</span>
-                <span className="font-bold text-orange-400">Thermal Power</span>
+                <span className="text-stone-300">Coal Consumption:</span>
+                <span className="font-bold text-orange-400">Baseline</span>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ const CoalorixHowItWorks = () => {
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-stone-300">Coal Consumption:</span>
-                <span className="font-bold text-emerald-400">3,400 TPD ↓15%</span>
+                <span className="font-bold text-emerald-400">↓9%</span>
               </div>
             </div>
           </div>

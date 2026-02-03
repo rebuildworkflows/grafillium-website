@@ -25,6 +25,7 @@ const InnovationPipeline = () => {
 
     // Group technologies by status
     const groupedByStatus = {
+        'Production Ready': pipelineData.filter(p => p.status === 'Production Ready'),
         'Advanced R&D Phase': pipelineData.filter(p => p.status === 'Advanced R&D Phase'),
         'Concept Validation': pipelineData.filter(p => p.status === 'Concept Validation'),
         'Laboratory Development': pipelineData.filter(p => p.status === 'Laboratory Development')
@@ -35,6 +36,13 @@ const InnovationPipeline = () => {
 
     // Status color mapping
     const statusStyles = {
+        'Production Ready': {
+            bg: 'from-green-50 to-emerald-50',
+            border: 'border-green-400',
+            text: 'text-green-800',
+            badge: 'bg-green-100 text-green-800',
+            icon: CheckCircle2
+        },
         'Advanced R&D Phase': {
             bg: 'from-emerald-50 to-teal-50',
             border: 'border-emerald-300',
@@ -281,7 +289,7 @@ const InnovationPipeline = () => {
                                                     Infrastructure & Roads
                                                 </div>
                                                 <div className="text-xs text-slate-600">
-                                                    NHAI, State Highways, Urban Development
+                                                    National Highways, State Highways, Urban Development
                                                 </div>
                                             </div>
                                         </div>

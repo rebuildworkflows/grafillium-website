@@ -25,8 +25,8 @@ const CoalorixTechnicalSpecs = () => {
   ];
 
   const performanceMetrics = [
-    { metric: 'Coal Savings', range: '3-15%', typical: '12-15%', icon: Factory },
-    { metric: 'Efficiency Gain', range: '5-10%', typical: '7%', icon: Gauge },
+    { metric: 'Coal Savings', range: '6-15%', typical: '9%', icon: Factory },
+    { metric: 'Efficiency Gain', range: '6-15%', typical: '9%', icon: Gauge },
     { metric: 'PM Reduction', range: '20-35%', typical: '30%', icon: Wind },
     { metric: 'CO Reduction', range: '15-30%', typical: '25%', icon: Droplets }
   ];
@@ -53,8 +53,6 @@ const CoalorixTechnicalSpecs = () => {
   ];
 
   const safetyCompliance = [
-    'NABL certified lab testing',
-    'ASTM testing protocols',
     'Non-toxic formulation',
     'No harmful residues',
     'Compatible with existing pollution control systems (ESP, Baghouse, FGD)',

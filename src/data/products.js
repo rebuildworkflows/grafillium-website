@@ -14,9 +14,7 @@ export const productsContent = [
         status: "Commercial Pilot",
         specs: {
             savings: "up to 15%",
-            savingsMarketing: "Up to 15% Savings",
             emissions: "up to 35%",
-            emissionsMarketing: "Up to 35% Emission Reduction",
             dose: "up to 0.1%"
         },
         hero: {
@@ -136,7 +134,7 @@ export const productsContent = [
             trueCost: {
                 title: "The True Cost of Coal",
                 global: "Fossil fuels ~73% of GHG emissions; coal ~40%.",
-                india: "CO₂ ~1.18BMT (power sector, 80%+ from coal); SO₂ 45-60%; NOₓ ~30%; PM2.5 >15%; Mercury ~80% from coal."
+                india: "CO₂ ~22.9B tonnes (power sector, 80%+ from coal); PM/soot & CO ↓ up to 9%; NOₓ ↓ up to 10%; SO₂ ↓ up to 8%; Mercury proportional"
             }
         }
     },
@@ -150,9 +148,7 @@ export const productsContent = [
         status: "Pilot Testing",
         specs: {
             savings: "up to 15%",
-            savingsMarketing: "Up to 15% Savings",
             emissions: "up to 15%",
-            emissionsMarketing: "Up to 15% Emission Reduction",
             dose: "0.01%"
         },
         hero: {
@@ -246,11 +242,8 @@ export const productsContent = [
         status: "Field Testing",
         specs: {
             savings: "up to 6%",
-            savingsMarketing: "Up to 6% Fuel Savings",
             wear: "-40%",
-            wearMarketing: "Up to 40% Wear Reduction",
-            oilLife: "up to 50%",
-            oilLifeMarketing: "Up to 50% Extended Oil Life"
+            oilLife: "up to 50%"
         },
         hero: {
             metrics: [
@@ -329,9 +322,7 @@ export const productsContent = [
         status: "Pilot Phase",
         specs: {
             savings: "up to 10%",
-            savingsMarketing: "Up to 10% Fuel Savings",
             emissions: "up to 12%",
-            emissionsMarketing: "Up to 12% Emission Reduction",
             dose: "0.25%"
         },
         hero: {
@@ -505,10 +496,10 @@ export const productsContent = [
                 },
                 strategicValue: {
                     india: [
-                        "Critical for NHAI's ~50,000 km/year highway expansion",
+                        "Critical for national highway expansion programs",
                         "Alignment with India's Road Safety Mission",
                         "Supports clean air & net-zero goals",
-                        "Funds can be redirected to 100,000+ km greenfield projects"
+                        "Enables redirection of funds to new infrastructure projects"
                     ],
                     global: [
                         "Global losses from degraded roads: $1–2 trillion/year",
@@ -517,7 +508,7 @@ export const productsContent = [
                         "Proven in pilots (e.g., Nigeria ~23%, Texas DOT trials)"
                     ]
                 },
-                targetApplications: "NHAI highway expansion, heavy traffic zones, high-shear areas, thin overlays, preventive maintenance",
+                targetApplications: "National highway expansion, heavy traffic zones, high-shear areas, thin overlays, preventive maintenance",
                 marketSize: {
                     value: "~8-9 MMT/year ($4-5.5B market)",
                     global: "~100-110 MMT/year ($50-65B)"
@@ -526,53 +517,225 @@ export const productsContent = [
                 viewMore: true
             },
             {
-                name: "Plume Dynamics",
-                brand: "Grafillium",
-                sector: "Power & Data",
-                status: "Under Development",
-                tagline: "Revolutionizing Water Recovery: Sustainable, Scalable, Smart",
-                text: "Plume Dynamics captures and conserves evaporated water from industrial cooling systems using advanced dual-technology platform for maximum water efficiency.",
-                oneLine: "Plume Dynamics: Captures water, saves money, secures the future.",
+                name: "Aquamax™",
+                brand: "Plume Dynamics",
+                sector: "Water Recovery & Conservation",
+                status: "Production Ready",
+                tagline: "Recovering 95% of industrial cooling water lost to evaporation",
+                text: "Aquamax™ is the world's first hybrid water recovery system combining HAMR (active electrostatic recovery) and HGMC (passive graphene condensation) to recover up to 95% of cooling tower plume water, delivering 12-24 month ROI while transforming water-stressed facilities into sustainable operations.",
+                oneLine: "Aquamax™: 95% water recovery, 12-24 month ROI, zero net water loss.",
                 keyTechnologies: {
                     hamr: {
                         name: "HAMR (High-Efficiency Atmospheric Moisture Recovery)",
-                        desc: "Active electrostatic system extracts moisture from cooling tower emissions with minimal energy input",
-                        type: "Active (Powered)",
+                        desc: "Active electrostatic moisture capture delivering 70-80% recovery with 0.3-0.5 kWh/m³ energy efficiency",
+                        type: "Active System",
+                        recovery: "70-80%",
                         bestFor: "Large-scale operations, high-volume recovery"
                     },
                     hgmc: {
                         name: "HGMC (Hydrophilic Graphene Muffle Covers)",
-                        desc: "Passive graphene-coated covers capture condensation without external power",
-                        type: "Passive (Zero Power)",
-                        bestFor: "Cost-sensitive applications, retrofit installations"
+                        desc: "Passive graphene-based condensation providing 20-30% additional recovery with zero power consumption",
+                        type: "Passive System",
+                        recovery: "20-30%",
+                        bestFor: "Cost-sensitive applications, first-line defense"
                     }
                 },
+                performanceMetrics: {
+                    totalRecovery: "95%+ from cooling tower plumes",
+                    waterYield: "1-5 liters per m³ processed air",
+                    largeTowerOutput: "100,000+ liters/day per facility",
+                    energyEfficiency: "0.3-0.5 kWh/m³ (<50% of desalination)",
+                    roiIndia: "12-18 months",
+                    roiGlobal: "18-24 months",
+                    operationalLife: "5× longer than conventional systems",
+                    installationTime: "2-6 weeks (plug-and-play retrofit)"
+                },
+                economicImpact: {
+                    india: {
+                        annualSavings: "₹1.2-2 Lakh Crore per year",
+                        gdpContribution: "0.5-0.8% of Indian GDP",
+                        carbonReduction: "10-15 Million tCO₂ per year",
+                        jobCreation: "15,000-25,000 direct jobs (500+ installations)",
+                        perFacilitySavings: "₹35-57 Crore per large facility annually"
+                    },
+                    global: {
+                        annualSavings: "$80-150 Billion per year",
+                        gdpImpact: "0.1-0.2%",
+                        totalWaterRecovery: "~1 Trillion liters per year at scale",
+                        carbonReduction: "60-95 Million tCO₂ per year",
+                        perFacilitySavings: "$4.5-7.0M per large facility annually"
+                    }
+                },
+                healthSocialImpact: {
+                    diseaseElimination: "100% elimination of water-borne diseases in facility water systems (cholera, typhoid)",
+                    toxinRemoval: "95-99% removal of heavy metals; 99.9%+ pathogen removal post-UV",
+                    workerHealth: "70% reduction in waterborne illness; 20% productivity increase",
+                    livesImproved: "250,000+ workers (India, 50 plants); 1-2 million community members",
+                    healthcareSavings: "₹500-800 Crore (India, 50 plants)"
+                },
+                environmentalImpact: {
+                    waterSavings: "100,000+ liters/day per facility; 1.8 billion liters/year (India, 50 facilities)",
+                    freshwaterReduction: "70-90% reduction in external water sourcing",
+                    carbonReduction: {
+                        waterPumping: "30-40 MtCO₂/year avoided",
+                        coolingEfficiency: "20-35 MtCO₂/year avoided",
+                        chemicalTransport: "10-20 MtCO₂/year avoided",
+                        perFacility: "0.5-1 MtCO₂/year (equivalent to 100,000 electric vehicles)"
+                    },
+                    ecosystemBenefits: "25-40% biodiversity increase; 15-25% soil improvement; 2-3°C local temperature reduction"
+                },
                 keyBenefits: [
-                    "10–30% reduction in makeup water requirements",
-                    "Typical ROI within 2–3 years",
-                    "Dual-technology approach (active + passive)",
-                    "Zero-power passive option available",
-                    "Scalable across multiple industries"
+                    "95%+ total water recovery from cooling tower plumes",
+                    "12-18 month ROI in India; 18-24 months globally",
+                    "100,000+ liters/day recovery per large cooling tower",
+                    "70-90% reduction in freshwater withdrawal",
+                    "0.3-0.5 kWh/m³ energy efficiency (<50% of desalination)",
+                    "Zero net water loss in closed-loop systems",
+                    "Plug-and-play retrofit installation (2-6 weeks)",
+                    "5× longer operational life than conventional systems",
+                    "100% elimination of waterborne diseases in facility water",
+                    "Meets/exceeds all ESG water & sustainability targets"
                 ],
+                technicalSpecs: {
+                    hamrRecovery: "70-80%",
+                    hgmcRecovery: "20-30%",
+                    totalRecovery: "95%+",
+                    waterYield: "1-5 L/m³ air",
+                    energyUse: "0.3-0.5 kWh/m³",
+                    hgmcPower: "Zero (passive)",
+                    waterQuality: {
+                        tds: "<500 ppm",
+                        microbial: "<10 CFU/mL (post-UV)",
+                        pH: "6.5-8.5",
+                        heavyMetals: "Below WHO limits",
+                        turbidity: "<1 NTU"
+                    },
+                    grapheneProperties: {
+                        dropletSpeed: "3× faster than conventional",
+                        antiFouling: "Self-cleaning surfaces",
+                        durability: "5× longer life",
+                        operatingTemp: "-10°C to 80°C"
+                    }
+                },
                 targetIndustries: [
-                    "Thermal power plants",
-                    "Industrial cooling systems",
-                    "Data centers",
-                    "Airports and aviation facilities",
-                    "Desalination plants",
-                    "Manufacturing plants"
+                    {
+                        name: "Thermal Power Plants",
+                        recovery: "100,000-500,000 L/day per plant",
+                        keyBenefit: "Boiler makeup reduction; zero-discharge capability"
+                    },
+                    {
+                        name: "Data Centers",
+                        recovery: "10,000-50,000 L/day per DC",
+                        keyBenefit: "Mission-critical water security; sustainability certifications"
+                    },
+                    {
+                        name: "Textile Mills",
+                        recovery: "50,000-200,000 L/day",
+                        keyBenefit: "Process cooling + steam condensate recovery"
+                    },
+                    {
+                        name: "Chemical Plants",
+                        recovery: "30,000-150,000 L/day",
+                        keyBenefit: "Closed-loop process cooling"
+                    },
+                    {
+                        name: "Food & Beverage",
+                        recovery: "20,000-80,000 L/day",
+                        keyBenefit: "Sanitary-grade water recovery"
+                    },
+                    {
+                        name: "Automotive",
+                        recovery: "15,000-60,000 L/day",
+                        keyBenefit: "Paint booth HVAC + process cooling"
+                    }
                 ],
+                geographicPriorities: {
+                    highPriority: [
+                        { region: "India", stress: "High", focus: "Rajasthan, Gujarat, Tamil Nadu" },
+                        { region: "Middle East (GCC)", stress: "Extreme", focus: "Highest water tariffs globally" },
+                        { region: "Western USA", stress: "High", focus: "California, Arizona, Nevada" },
+                        { region: "Northern China", stress: "High", focus: "Beijing, Hebei" },
+                        { region: "Australia", stress: "Moderate-High", focus: "Climate variability" }
+                    ],
+                    emerging: [
+                        { region: "Southeast Asia", timeline: "2-5 years" },
+                        { region: "Southern Europe", timeline: "2-4 years" },
+                        { region: "South Africa", timeline: "Immediate" },
+                        { region: "Latin America", timeline: "3-5 years" }
+                    ]
+                },
+                esgAlignment: {
+                    environmental: [
+                        "70-90% reduction in freshwater withdrawal",
+                        "0.5-1 MtCO₂ per facility avoided annually",
+                        "Reduced aquifer stress supports ecosystems",
+                        "95% water reuse in closed loops"
+                    ],
+                    social: [
+                        "Clean water access; disease prevention",
+                        "Absenteeism ↓70%; productivity ↑20%",
+                        "~300 jobs per facility (operations + maintenance)",
+                        "15-20% improvement in child school attendance"
+                    ],
+                    governance: [
+                        "Meets/exceeds water use & discharge standards",
+                        "Secures water supply; reduces operational risk",
+                        "Automated monitoring & real-time ESG reporting",
+                        "First-mover advantage in water tech"
+                    ],
+                    certifications: [
+                        "GRI (Water & effluents; Energy)",
+                        "CDP Water Security A-list support",
+                        "TCFD climate risk mitigation",
+                        "UN SDGs 6, 13, 9",
+                        "LEED water efficiency credits",
+                        "ISO 14001 integration"
+                    ]
+                },
+                implementation: {
+                    preInstallation: "2-4 weeks (site assessment, engineering design, permits)",
+                    installation: "2-6 weeks (HGMC + HAMR installation, commissioning)",
+                    postInstallation: "Ongoing performance monitoring & quarterly maintenance",
+                    compatibleSystems: [
+                        "Mechanical draft cooling towers (Excellent)",
+                        "Natural draft cooling towers (Excellent)",
+                        "Evaporative condensers (Good)",
+                        "Closed-circuit coolers (Good)",
+                        "Hybrid cooling systems (Excellent)"
+                    ],
+                    automation: "Fully automated with remote monitoring dashboard",
+                    maintenance: "Weekly inspection; quarterly full service; annual deep clean",
+                    annualOperatingCost: "₹6-11 Lakh ($7,200-13,500) per large facility (<2% of water savings)"
+                },
                 competitiveAdvantages: [
-                    "Only company offering both active and passive water recovery",
-                    "Advanced hydrophilic graphene coating technology",
-                    "High-efficiency electrostatic moisture extraction",
-                    "Fast payback with significant operational savings",
-                    "Modular and retrofit-friendly design"
+                    "World's first hybrid system (95% recovery vs 3-8% conventional)",
+                    "Only solution combining passive + active recovery",
+                    "3× faster droplet formation with graphene technology",
+                    "12-24 month ROI vs 3-5 years for alternatives",
+                    "5× longer operational life than industry standard",
+                    "Weeks to install vs months for dry cooling",
+                    "<50% energy use compared to desalination",
+                    "Zero discharge capability for complete sustainability"
                 ],
+                proofPoints: {
+                    recoveryRate: "On-site pilot data; third-party engineering validation",
+                    roi: "Customer case studies; financial modeling",
+                    healthImpact: "Medical literature on water-borne disease prevention",
+                    carbonReduction: "Life-cycle assessment (LCA) studies",
+                    economicImpact: "Market sizing by independent analysts"
+                },
                 contact: {
+                    company: "Plume Dynamics",
                     address: "250 JMD Megapolis, Sector 48, Sohna Road, Gurgaon, Haryana 122018",
                     email: "info@plumedynamics.com",
                     website: "https://plumedynamics.com/"
+                },
+                keyMessages: {
+                    ceo: "Aquamax™ delivers 12-24 month ROI while securing water supply and achieving your ESG targets. Recover 95% of cooling water with proven technology.",
+                    cfo: "₹35-57 Crore direct annual savings per large facility. 45-65% IRR with 12-18 month payback in India. Eliminates water scarcity risk.",
+                    sustainability: "Meet your 2030 water reduction targets today. 70-90% freshwater withdrawal reduction; carbon savings equivalent to 100,000 EVs per facility.",
+                    operations: "Plug-and-play retrofit in 2-6 weeks. 95% recovery at 0.3-0.5 kWh/m³. Automated operation with 5× longer life than conventional systems.",
+                    investors: "$80-150 billion global market; 0.1-0.2% GDP impact. Solving a critical infrastructure problem with 2× better technology than alternatives."
                 },
                 viewMore: true
             },
