@@ -126,9 +126,28 @@ export const aboutContent = {
         { year: "2027+", phase: "Growth", details: "Full commercial launch, Geographic expansion, Global market entry." }
     ],
     founders: {
-        title: "Founder Profiles",
+        title: "Founders Profiles",
         description: "Meet the visionary leaders driving innovation and sustainability at Grafillium",
         team: [
+            {
+                name: "Vikas Jain",
+                title: "Co-Founder",
+                subtitle: "Chief Executive and Manufacturing Officer",
+                experience: "25+ years",
+                bio: "With over 25 years of global experience spanning Australia, China, Italy, Germany, and India, Vikas Jain is a visionary entrepreneur and strategist with an extensive background in manufacturing, business strategy, and sustainable engineering. His expertise lies in leveraging cross-industry knowledge to develop innovative, high-impact solutions that drive environmental sustainability.",
+                background: "As the Co-founder, Vikas is at the forefront of deeptech-driven environmental solutions, breaking barriers across industries to tackle some of the world's most pressing challenges. He believes that \"Nothing is impossible\"—a philosophy that has fueled his success in pioneering disruptive technologies and implementing transformative business strategies.",
+                leadership: "Vikas holds a Lean Manufacturing Management certification from Monash University, Melbourne, equipping him with a sharp analytical approach to optimizing production efficiency and sustainability. His current focus is on revolutionizing plume capture technologies and exploring the potential of clean nuclear energy to shape a greener future.",
+                education: "Lean Manufacturing Management - Monash University, Melbourne",
+                expertise: [
+                    "Manufacturing & Operations",
+                    "Sustainable Engineering",
+                    "Plume Capture Technologies",
+                    "Clean Energy Solutions"
+                ],
+                linkedin: "",
+                image: VikasImage,
+                placeholder: false
+            },
             {
                 name: "Vievek Jain",
                 title: "Co-Founder",
@@ -147,26 +166,6 @@ export const aboutContent = {
                 ],
                 linkedin: "",
                 image: VievekImage,
-                placeholder: false
-            },
-            {
-                name: "Vikas Jain",
-                title: "Co-Founder",
-                subtitle: "Chief Executive and Manufacturing Officer",
-                experience: "25+ years",
-                bio: "With over 25 years of global experience spanning Australia, China, Italy, Germany, and India, Vikas Jain is a visionary entrepreneur and strategist with an extensive background in manufacturing, business strategy, and sustainable engineering. His expertise lies in leveraging cross-industry knowledge to develop innovative, high-impact solutions that drive environmental sustainability.",
-                background: "As the Co-founder of Plume Dynamics, Vikas is at the forefront of deeptech-driven environmental solutions, breaking barriers across industries to tackle some of the world's most pressing challenges. He believes that \"Nothing is impossible\"—a philosophy that has fueled his success in pioneering disruptive technologies and implementing transformative business strategies.",
-                leadership: "Vikas holds a Lean Manufacturing Management certification from Monash University, Melbourne, equipping him with a sharp analytical approach to optimizing production efficiency and sustainability. His current focus is on revolutionizing plume capture technologies and exploring the potential of clean nuclear energy to shape a greener future.",
-                education: "Lean Manufacturing Management - Monash University, Melbourne",
-                expertise: [
-                    "Manufacturing & Operations",
-                    "Sustainable Engineering",
-                    "Deeptech Innovation",
-                    "Plume Capture Technologies",
-                    "Clean Energy Solutions"
-                ],
-                linkedin: "",
-                image: VikasImage,
                 placeholder: false
             },
             {

@@ -136,10 +136,10 @@ const CoalorixTechnicalSpecs = () => {
           </div>
           <div className="font-mono text-sm text-stone-700 bg-stone-50 p-4 rounded border border-stone-200">
             <div className="mb-2">
-              <span className="text-orange-600 font-bold">Dosage Required (kg/day)</span> = Coal Consumption (tonnes/day) × Dosage Rate (ppm) / 1000
+              <span className="text-orange-600 font-bold">Dosage Required (kg/day)</span> = Coal Consumption (tons/day) × Dosage Rate (ppm) / 1000
             </div>
             <div className="text-xs text-stone-500 mt-3 pt-3 border-t border-stone-200">
-              Example: 4,000 tonnes/day × 1,000 ppm / 1000 = <span className="font-bold text-orange-600">4,000 kg/day (4 tonnes/day)</span>
+              Example: 4,000 tons/day × 1,000 ppm / 1000 = <span className="font-bold text-orange-600">4,000 kg/day (4 tons/day)</span>
             </div>
           </div>
         </div>

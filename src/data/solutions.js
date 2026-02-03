@@ -16,7 +16,7 @@
                 nationalImpact: {
                     savings: "40 MMT/yr",
                     forex: "₹18,000 Cr",
-                    co2: "100M+ Tonnes"
+                    co2: "100M+ Tons"
                 },
                 link: "/industries/thermal-power"
             },

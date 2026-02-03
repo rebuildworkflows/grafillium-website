@@ -14,8 +14,8 @@ export const homeContent = {
             { label: "Our Innovation Portfolio", primary: false, link: "/products" }
         ],
         metrics: [
-            { label: "Coal Savings", value: "15.4M", suffix: "tonnes", sub: "National Scale Impact" },
-            { label: "CO₂ Reduction", value: "49M+", suffix: "tonnes", sub: "Annual Avoidance" },
+            { label: "Coal Savings", value: "15.4M", suffix: "tons", sub: "National Scale Impact" },
+            { label: "CO₂ Reduction", value: "49M+", suffix: "tons", sub: "Annual Avoidance" },
             { label: "Economic Value", value: "₹67k", suffix: "crore", sub: "Forex Savings" },
             { label: "Efficiency", value: "15%", suffix: "Gain", sub: "Optimized Operations" }
         ]

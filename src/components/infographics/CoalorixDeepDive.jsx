@@ -29,11 +29,11 @@ const CoalorixDeepDive = () => {
   ];
 
   const trueCostData = [
-    { pollutant: 'CO₂ Emissions', share: '1.18BMT', source: 'Power sector (80%+ from coal)' },
-    { pollutant: 'SO₂', share: '45-60%', source: 'From coal combustion' },
-    { pollutant: 'NOₓ', share: '~30%', source: 'From coal plants' },
-    { pollutant: 'PM2.5', share: '>15%', source: 'From coal operations' },
-    { pollutant: 'Mercury', share: '~80%', source: 'From coal combustion' }
+    { pollutant: 'CO₂ Emissions', share: '22.9B tons', source: 'Power sector (80%+ from coal)' },
+    { pollutant: 'PM/soot & CO', share: '↓ up to 9%', source: 'Reduction with Coalorix' },
+    { pollutant: 'NOₓ', share: '↓ up to 10%', source: 'Reduction with Coalorix' },
+    { pollutant: 'SO₂', share: '↓ up to 8%', source: 'Reduction with Coalorix' },
+    { pollutant: 'Mercury', share: 'Proportional', source: 'Reduction with Coalorix' }
   ];
 
   return (

@@ -14,7 +14,7 @@ const About = () => {
         { id: 'brands', label: 'Our Brands', icon: Package },
         { id: 'competencies', label: 'Core Competencies', icon: Layers },
         { id: 'vision', label: 'Vision 2030', icon: TrendingUp },
-        { id: 'founders', label: 'Founder Profiles', icon: Users },
+        { id: 'founders', label: 'Founders Profiles', icon: Users },
     ];
 
     return (
@@ -330,7 +330,7 @@ const About = () => {
                                                                     <img
                                                                         src={founder.image}
                                                                         alt={founder.name}
-                                                                        className="w-full h-full object-cover"
+                                                                        className={`w-full h-full object-cover ${founder.name.includes('Vikas') || founder.name.includes('Vievek') ? 'grayscale' : ''}`}
                                                                     />
                                                                 ) : (
                                                                     <Users size={80} className={`${founder.placeholder ? 'text-stone-400' : 'text-stone-500'

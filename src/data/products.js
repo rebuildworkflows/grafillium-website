@@ -134,7 +134,7 @@ export const productsContent = [
             trueCost: {
                 title: "The True Cost of Coal",
                 global: "Fossil fuels ~73% of GHG emissions; coal ~40%.",
-                india: "CO₂ ~22.9B tonnes (power sector, 80%+ from coal); PM/soot & CO ↓ up to 9%; NOₓ ↓ up to 10%; SO₂ ↓ up to 8%; Mercury proportional"
+                india: "CO₂ ~22.9B tons (power sector, 80%+ from coal); PM/soot & CO ↓ up to 9%; NOₓ ↓ up to 10%; SO₂ ↓ up to 8%; Mercury proportional"
             }
         }
     },
