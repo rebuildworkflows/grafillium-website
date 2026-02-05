@@ -13,7 +13,7 @@ const IgnitronPDeepDive = () => {
     { issue: 'Carbon Monoxide (CO)', consequence: 'Major urban air pollutant, health hazard' },
     { issue: 'Hydrocarbons (HC)', consequence: 'Contributes to smog and ground-level ozone' },
     { issue: 'Nitrogen Oxides (NOₓ)', consequence: 'Respiratory issues, acid rain precursor' },
-    { issue: 'Particulates', consequence: 'PM2.5/PM10 health impacts, especially urban areas' }
+    { issue: 'Particulates', consequence: 'PM₂.₅/PM₁₀ health impacts, especially urban areas' }
   ];
 
   const nationalImpact = [

@@ -330,7 +330,7 @@ const CoalorixDeepDive = () => {
             Coalorix provides an immediate, practical solution to reduce emissions and improve efficiency today.
           </p>
           <div className="flex items-center gap-2 text-sm font-bold text-orange-600">
-            <span>Optimization is needed NOW</span>
+            <span>Optimization is needed NOW and we have achieved it!</span>
             <ArrowRight size={16} />
           </div>
         </div>

@@ -4,12 +4,30 @@ import VikasImage from '../assets/Vikas.jpeg';
 export const aboutContent = {
     hero: {
         title: "About Grafillium",
-        tagline: "Building the industrial backbone of tomorrow",
-        mission: "Accelerating India’s transition toward cleaner, smarter, and self-reliant technologies through world-class research and industrial execution."
+        tagline: "Innovating Nanomaterials to Transform Industrial Efficiency and Reduce Carbon Emissions",
+        mission: "Grafillium is a deeptech innovation company focused on breakthrough nanomaterial additives that significantly enhance efficiency across industrial systems. Our proprietary solutions improve combustion and performance in fuels such as coal, diesel, petrol, and engine oil, elevate coatings and paints, enable smarter bitumen performance, and support industrial water recycling — all while lowering carbon emissions and environmental impact.",
+        quote: "Innovating today to inherit tomorrow's Earth.",
+        quoteAuthor: "Founders"
     },
     overview: {
-        description: "Grafillium is a mission-driven innovation company accelerating India’s transition toward cleaner, smarter, and self-reliant technologies. We combine world-class research with industrial execution to deliver solutions that are sustainable, cost-effective, and scalable across global markets.",
-        belief: "We believe the next wave of industrial transformation lies in converging breakthrough technologies. By collaborating with leading scientists, global research institutions, and industrial partners, Grafillium integrates frontier science with India’s Make-in-India manufacturing ecosystem.",
+        whoWeAre: "Grafillium is a science-driven deeptech company. We develop advanced nanomaterial additive technologies. Our focus is on boosting efficiency and reducing carbon emissions across industrial systems.",
+        mission: "To elevate industrial performance through nanomaterial innovation. To enable measurable reductions in energy intensity and carbon output. To bridge deep science with real industrial impact.",
+        whatWeDo: "Develop nanomaterial additives for fuels and combustion systems including coal, diesel, petrol, and engine oil. Enhance performance of industrial fluids and coatings. Improve bitumen and construction material performance. Enable industrial water treatment and recycling.",
+        howTechnologyWorks: "Precision engineered nanoparticles interact at the molecular level. Improve energy conversion and reduce friction and losses. Enable more complete combustion and reduced waste. Support reuse and recovery in industrial water systems.",
+        coreStrengths: [
+            "Deep expertise in nanotechnology and materials science",
+            "Solutions designed for real world industrial scalability",
+            "Efficiency improvements aligned with sustainability and emissions reduction goals"
+        ],
+        whyItMatters: "Industrial activity is a major contributor to global energy use and emissions. Small efficiency gains can lead to significant energy and carbon savings. Our solutions help reduce fuel consumption, operating costs, and carbon footprint.",
+        valueBring: [
+            "Science backed performance enhancements",
+            "Measurable and practical industrial outcomes",
+            "Sustainability aligned with regulatory and industry objectives"
+        ],
+        partnerWithUs: "We collaborate with industrial partners and technology adopters. Together we deliver real world performance and sustainability impact.",
+        description: "Grafillium is a deeptech innovation company focused on breakthrough nanomaterial additives that significantly enhance efficiency across industrial systems.",
+        belief: "We exist to accelerate sustainable industrial transformation through nanoscale science and measurable performance gains.",
         focusItems: [
             "Lowering operational costs",
             "Reducing resource consumption",
@@ -106,7 +124,7 @@ export const aboutContent = {
                 "Diesel Efficiency (15%): ~₹67,000 crore forex savings ($8-9B)",
                 "Carbon Reduction: 50-100 MMT CO₂ avoided",
                 "Economic Relief: Potential ₹1.6 lakh crore impact",
-                "Air Quality: significant reductions in NOₓ, SO₂, and PM2.5"
+                "Air Quality: significant reductions in NOₓ, SO₂, and PM₂.₅"
             ]
         }
     },
@@ -146,6 +164,26 @@ export const aboutContent = {
                 ],
                 linkedin: "",
                 image: VikasImage,
+                placeholder: false
+            },
+            {
+                name: "Vinod Jain",
+                title: "Co-Founder",
+                subtitle: "Corporate Governance",
+                experience: "30+ years",
+                bio: "Strategic advisor and brand visionary with decades of industrial insight and corporate governance expertise. Vinod Jain brings extensive experience in building sustainable business models and guiding strategic direction for technology-driven enterprises.",
+                background: "With over 30 years of experience across diverse industries, Vinod has developed a deep understanding of corporate strategy, governance frameworks, and sustainable business practices. His expertise in navigating complex regulatory environments and building strong stakeholder relationships has been instrumental in shaping organizational success.",
+                leadership: "As a Co-Founder, Vinod plays a crucial role in establishing robust governance structures and ensuring strategic alignment across the organization. His vision for sustainable growth and ethical business practices guides Grafillium's approach to corporate responsibility and long-term value creation.",
+                education: "Business Management and Corporate Governance",
+                expertise: [
+                    "Corporate Governance",
+                    "Strategic Advisory",
+                    "Brand Development",
+                    "Stakeholder Management",
+                    "Sustainable Business Models"
+                ],
+                linkedin: "",
+                image: "/images/profiles/Vinod.webp",
                 placeholder: false
             },
             {

@@ -2,8 +2,42 @@ import { BarChart3, FlaskConical, Globe2, Layers, Leaf, Zap } from "lucide-react
 
 export const homeContent = {
     hero: {
-        headline: "Engineering the Future of Innovations",
-        subheadline: "Converging breakthrough technologies with homegrown Indian innovations that drive clean energy, sustainability, and industrial transformation.",
+        headline: "Nanotech powered performance. Real industrial impact across fuels, coatings, water, and bitumen.",
+        subheadline: "Grafillium is a deeptech innovation company developing nanomaterial additive technologies that improve efficiency and reduce carbon emissions.",
+        whatWeDo: [
+            "Develop nanomaterial additives for industrial fuels including coal, diesel, petrol, and engine oils",
+            "Enhance performance of industrial coatings and fluid systems",
+            "Improve bitumen and construction material efficiency",
+            "Enable advanced industrial water recycling and treatment"
+        ],
+        coreValue: [
+            "Efficiency gains through improved energy conversion and process performance",
+            "Emissions reduction through optimized fuel and material usage",
+            "Sustainable impact aligned with environmental and industrial objectives"
+        ],
+        whyChoose: [
+            "Deep scientific expertise in nanotechnology and materials science",
+            "Industry ready solutions with measurable performance impact",
+            "Scalable technologies designed for industrial deployment",
+            "Tangible improvements in energy use, emissions, and operational costs"
+        ],
+        howWorks: [
+            "Nano additives engineered for molecular level interaction",
+            "Reduction of friction and energy losses in combustion and fluid systems",
+            "More complete fuel utilization and reduced waste",
+            "Support for resource recovery and reuse in water systems"
+        ],
+        industrialBenefits: [
+            "Reduced fuel consumption and operating costs",
+            "Improved performance of coatings and industrial materials",
+            "Enhanced efficiency in industrial water recycling",
+            "Lower carbon footprint and emissions intensity"
+        ],
+        callToAction: [
+            "Partner with Grafillium for performance and sustainability advancement",
+            "Explore our solutions to unlock efficiency and climate impact benefits",
+            "Connect with us to evaluate fit for your industrial needs"
+        ],
         badges: [
             "10-15% Coal Savings",
             "Double-Digit Efficiency",
@@ -76,26 +110,62 @@ export const homeContent = {
             ]
         }
     ],
-    vision: "To deliver double-digit efficiency improvements in legacy fuel and industrial systems, while reducing the global carbon footprint by 10-15% in optimized deployments, thereby bridging the gap between today's infrastructure and tomorrow's clean economy.",
+    vision: "To accelerate sustainable industrial transformation through nanoscale science and measurable performance gains.",
     strategicImperative: {
-        title: "Challenges",
-        subtitle: "Enhance efficiency by reducing environmental impact",
-        intro: "Bridging the gap between today's operating infrastructure and tomorrow's sustainable economy requires action now. While the transition to clean systems is underway, existing assets will continue to dominate for decades. The real challenge is making them cleaner, smarter, and more efficient today.",
+        title: "Core Value Proposition",
+        subtitle: "Science-backed solutions for measurable industrial impact",
+        intro: "We exist to accelerate sustainable industrial transformation through nanoscale science and measurable performance gains.",
         points: [
             {
-                title: "The Operational Reality",
-                description: "Global industrial and thermal energy systems form the backbone of modern economies. These assets are indispensable, capital-intensive, and long-lived. A complete transition to new infrastructure will take time. The opportunity lies in improving the performance and environmental footprint of what is already deployed."
+                title: "Efficiency Gains",
+                description: "Efficiency gains through improved energy conversion and process performance. Our nanomaterial additives work at the molecular level to unlock efficiency improvements across fuels, coatings, and industrial systems."
             },
             {
-                title: "The Efficiency Gap",
-                description: "Hidden inefficiencies across energy, materials, and industrial processes result in massive economic losses and avoidable emissions every year. Even marginal improvements in efficiency can unlock significant cost savings, reduce resource waste, and deliver immediate environmental benefits at scale."
+                title: "Emissions Reduction",
+                description: "Emissions reduction through optimized fuel and material usage. By enabling more complete fuel utilization and reducing friction losses, we help lower carbon emissions and environmental impact."
             },
             {
-                title: "The Drop-In Advantage",
-                description: "Our solutions are designed to integrate seamlessly into existing products and systems. By enhancing efficiency at the molecular and process level, we enable measurable performance gains and substantial emission reductions without redesign, replacement, or operational disruption."
+                title: "Sustainable Impact",
+                description: "Sustainable impact aligned with environmental and industrial objectives. Our solutions deliver tangible improvements in energy use, emissions, and operational costs while supporting long-term sustainability goals."
             }
         ]
     },
+    whatWeDo: [
+        "Develop nanomaterial additives for industrial fuels including coal, diesel, petrol, and engine oils",
+        "Enhance performance of industrial coatings and fluid systems",
+        "Improve bitumen and construction material efficiency",
+        "Enable advanced industrial water recycling and treatment"
+    ],
+    whyChooseUs: [
+        {
+            title: "Deep Scientific Expertise",
+            description: "Deep scientific expertise in nanotechnology and materials science"
+        },
+        {
+            title: "Industry Ready Solutions",
+            description: "Industry ready solutions with measurable performance impact"
+        },
+        {
+            title: "Scalable Technologies",
+            description: "Scalable technologies designed for industrial deployment"
+        },
+        {
+            title: "Tangible Improvements",
+            description: "Tangible improvements in energy use, emissions, and operational costs"
+        }
+    ],
+    howItWorks: [
+        "Nano additives engineered for molecular level interaction",
+        "Reduction of friction and energy losses in combustion and fluid systems",
+        "More complete fuel utilization and reduced waste",
+        "Support for resource recovery and reuse in water systems"
+    ],
+    industrialBenefits: [
+        "Reduced fuel consumption and operating costs",
+        "Improved performance of coatings and industrial materials",
+        "Enhanced efficiency in industrial water recycling",
+        "Lower carbon footprint and emissions intensity"
+    ],
     updates: [
         { date: "Jan 2026", text: "Coalorix: Field trials scheduled with partner thermal plants." },
         { date: "Jan 2026", text: "Ignitron D: Pilot results confirm 18-22% fuel economy gains." },

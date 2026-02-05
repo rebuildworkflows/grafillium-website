@@ -74,7 +74,7 @@ const IgnitronDBenefitsROI = () => {
   ];
 
   const performanceMetrics = [
-    { metric: 'Typical Fuel Economy', value: '3-8%', context: 'Real-world conditions' },
+    { metric: 'Typical Fuel Economy', value: '5-10%', context: 'Real-world conditions' },
     { metric: 'Optimized Fuel Economy', value: 'Up to 20%', context: 'Ideal conditions' },
     { metric: 'CO₂ Reduction', value: 'Proportional', context: 'To fuel saved' }
   ];

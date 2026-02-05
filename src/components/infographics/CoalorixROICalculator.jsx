@@ -7,7 +7,7 @@ export default function CoalorixROICalculator() {
   const [inputs, setInputs] = useState({
     dailyCoalConsumption: 8000,
     coalCost: 3000,
-    savingsPercent: 15,
+    savingsPercent: 9,
     capexInvestment: 200, // Fixed at ₹2 Cr
     treatmentCostPerTon: 220
   })
@@ -67,7 +67,7 @@ export default function CoalorixROICalculator() {
     setInputs({
       dailyCoalConsumption: 8000,
       coalCost: 3000,
-      savingsPercent: 15,
+      savingsPercent: 9,
       capexInvestment: 200, // Fixed at ₹2 Cr
       treatmentCostPerTon: 220
     })

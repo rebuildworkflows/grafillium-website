@@ -228,7 +228,7 @@ export const productsContent = [
             trueCost: {
                 title: "The True Cost of Diesel",
                 global: "Middle distillates account for 10-12% of global GHG emissions. Diesel is classified as a carcinogen; aviation contributes contrail-induced warming; kerosene causes indoor pollution in developing regions.",
-                india: "~326 MMT CO₂; road transport >40% NOₓ, large PM2.5."
+                india: "~326 MMT CO₂; road transport >40% NOₓ, large PM₂.₅."
             }
         }
     },
@@ -439,7 +439,7 @@ export const productsContent = [
                 name: "Bitumax™",
                 sector: "Infrastructure",
                 brand: "Grafillium x Nexerg",
-                status: "Under Development",
+                status: "Advanced R&D Phase",
                 tagline: "High-performance bitumen additive for longer-lasting, safer, and more sustainable roads",
                 text: "Bitumax™ is a high-performance bitumen additive that significantly improves fatigue resistance and controls cracking, ravelling, and moisture-induced stripping. It addresses critical infrastructure challenges, resulting in longer-lasting, safer, and more sustainable roads.",
                 oneLine: "Bitumax™: Makes roads tougher, longer-lasting, safer, eco-friendlier.",
@@ -520,7 +520,7 @@ export const productsContent = [
                 name: "Aquamax™",
                 brand: "Plume Dynamics",
                 sector: "Water Recovery & Conservation",
-                status: "Production Ready",
+                status: "Advanced R&D Phase",
                 tagline: "Recovering 95% of industrial cooling water lost to evaporation",
                 text: "Aquamax™ is the world's first hybrid water recovery system combining HAMR (active electrostatic recovery) and HGMC (passive graphene condensation) to recover up to 95% of cooling tower plume water, delivering 12-24 month ROI while transforming water-stressed facilities into sustainable operations.",
                 oneLine: "Aquamax™: 95% water recovery, 12-24 month ROI, zero net water loss.",
@@ -793,7 +793,7 @@ export const productsContent = [
                 name: "AgniShield",
                 brand: "Grafillium",
                 sector: "Construction",
-                status: "Under Development",
+                status: "Advanced R&D Phase",
                 tagline: "Fire-Retardant Paint Additive for building safety",
                 text: "AgniShield paint additive imparts fire-retardant properties to wall paints, creating an intumescent char barrier that slows flame spread and extends evacuation time (30–120+ minutes).",
                 oneLine: "AgniShield: Stops fire spread, saves lives, protects assets.",

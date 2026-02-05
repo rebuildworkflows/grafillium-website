@@ -85,7 +85,7 @@ export const pipelineData = [
                 problem: "Poor roads increase fuel consumption by 10–20%, increasing vehicle wear and India's fuel import bill (₹12 lakh crore+/year).",
                 solution: [
                     "Enables 5–15% fuel savings",
-                    "5-15% (proportionate) reduction in national PM2.5, NOx & CO2 emissions"
+                    "5-15% (proportionate) reduction in national PM₂.₅, NOₓ & CO₂ emissions"
                 ],
                 impact: [
                     "~₹50,000 crore/year fuel savings",
@@ -240,7 +240,7 @@ export const pipelineData = [
         tagline: "High-Efficiency Atmospheric Moisture Recovery (HAMR) + Hydrophilic Graphene Muffle Covers (HGMC)",
         sector: "Water Management",
         brand: "Plume Dynamics",
-        status: "Production Ready",
+        status: "Advanced R&D Phase",
         text: "Aquamax™ is the world's first hybrid water recovery system combining HAMR (Active: 70-80% recovery) and HGMC (Passive: 20-30% recovery) for 95%+ total recovery of cooling tower plume water. Delivers 12-24 month ROI while transforming water-stressed facilities into sustainable, self-sufficient operations.",
 
         // Key Benefits - Always Visible on Card
@@ -555,7 +555,7 @@ export const pipelineData = [
         tagline: "Thermal insulation coating for industrial energy efficiency",
         sector: "Energy Efficiency",
         brand: "Grafillium",
-        status: "Laboratory Development",
+        status: "Advanced R&D Phase",
         text: "ThermoGuard™ is a next-generation thermal barrier coating that reduces heat loss in industrial furnaces, boilers, and high-temperature equipment by up to 25%, delivering significant energy savings and improved process efficiency.",
 
         keyBenefits: [
@@ -596,7 +596,7 @@ export const pipelineData = [
         tagline: "Fire-Retardant Paint Additive for building safety",
         sector: "Construction",
         brand: "Grafillium",
-        status: "Concept Validation",
+        status: "Advanced R&D Phase",
         text: "AgniShield™ is an advanced paint additive that imparts fire-retardant properties to wall paints, creating an intumescent char barrier that slows flame spread and extends evacuation time (30–120+ minutes).",
 
         // Key Benefits - Always Visible on Card

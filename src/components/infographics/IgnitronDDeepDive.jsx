@@ -36,7 +36,7 @@ const IgnitronDDeepDive = () => {
   const trueCostIndia = [
     { pollutant: 'CO₂', amount: '~326 MMT', source: 'Road transport emissions' },
     { pollutant: 'NOₓ', amount: '>40%', source: 'From road transport' },
-    { pollutant: 'PM2.5', amount: 'Large', source: 'Particulate matter contribution' }
+    { pollutant: 'PM₂.₅', amount: 'Large', source: 'Particulate matter contribution' }
   ];
 
   return (

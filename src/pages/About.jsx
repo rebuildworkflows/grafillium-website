@@ -142,14 +142,33 @@ const About = () => {
                                             </div>
                                         </div>
 
-                                        <div className="lg:col-span-6">
-                                            <p className="text-lg text-stone-500 font-medium leading-relaxed">
-                                                {aboutContent.overview.description}
+                                        {/* Who We Are */}
+                                        <div className="lg:col-span-12 mb-8">
+                                            <h3 className="text-2xl font-bold mb-4 text-black">Who We Are</h3>
+                                            <p className="text-lg text-stone-600 font-medium leading-relaxed">
+                                                {aboutContent.overview.whoWeAre}
                                             </p>
                                         </div>
-                                        <div className="lg:col-span-6 bg-stone-50 p-8 border border-stone-200">
+
+                                        {/* What We Do */}
+                                        <div className="lg:col-span-12 mb-8">
+                                            <h3 className="text-2xl font-bold mb-4 text-black">What We Do</h3>
+                                            <p className="text-lg text-stone-600 font-medium leading-relaxed">
+                                                {aboutContent.overview.whatWeDo}
+                                            </p>
+                                        </div>
+
+                                        {/* Why It Matters */}
+                                        <div className="lg:col-span-12 mb-8">
+                                            <h3 className="text-2xl font-bold mb-4 text-black">Why It Matters</h3>
+                                            <p className="text-lg text-stone-600 font-medium leading-relaxed">
+                                                {aboutContent.overview.whyItMatters}
+                                            </p>
+                                        </div>
+
+                                        <div className="lg:col-span-12 bg-stone-50 p-8 border border-stone-200 mt-8">
                                             <h3 className="text-xs font-bold uppercase tracking-widest mb-6">Strategic Focus</h3>
-                                            <ul className="space-y-4">
+                                            <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                                 {aboutContent.overview.focusItems.map((item, idx) => (
                                                     <li key={idx} className="flex items-start gap-4 text-base font-bold text-black group">
                                                         <div className="mt-1 w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center shrink-0 group-hover:bg-emerald-500 transition-colors">
